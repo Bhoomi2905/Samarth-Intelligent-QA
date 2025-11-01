@@ -3,8 +3,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-rainfall = pd.read_csv("C:\\Users\\Bhoomika\\OneDrive\\Desktop\\Bharat Project\\RainFall.csv")
-crops = pd.read_csv("C:\\Users\\Bhoomika\\OneDrive\\Desktop\\Bharat Project\\crops.csv")
+rainfall = pd.read_csv("RainFall.csv")
+crops = pd.read_csv("crops.csv")
 
 @app.route('/')
 def home():
